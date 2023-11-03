@@ -1,0 +1,76 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Oswald;
+  margin-top: 0;
+  margin-bottom: 0;
+  /* padding-left: 1.5rem; add padding for space left of headers */
+  font-weight: 300;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 1.2;
+  letter-spacing: -0.1rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.logo {
+    margin-top: 2rem;
+    margin-left: 1rem;
+    display: flex;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+   display: flex;
+   flex-direction: row;
+   margin-top: 2rem;
+}
+
+/* .contact img {
+    display: flex;
+    align-items: center;
+    
+    
+} */
+
+#blog-title {
+  font-family: yellowtail;
+  font-size: 3rem;
+  margin-left: 1.5rem;
+}
+
+#sub-title {
+    margin-left: 1.5rem;
+}
+
+.instructions {
+  font-family: Georgia;
+  color: rgb(95, 95, 95);
+  line-height: 1.6;
+  font-weight: 50;
+  letter-spacing: 0.02rem;
+}
+
+.ingredients {
+  font-family: 'Patrick Hand';
+  color: rgb(95, 95, 95);
+}
+
+strong {
+  font-family: Patrick Hand SC;
+  color: gray;
+  font-weight: 50;
+}
