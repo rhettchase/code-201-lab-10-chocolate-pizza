@@ -23,35 +23,43 @@ than just the ones used in this file.
 
   <body>
     <header>
-      <div class="logo">
-        <img src="img/logo.png" />
-        <div class="title">
-          <p id="blog-title">Delicious</p>
-          <strong id="sub-title">The best food blog on the web</strong>
+      <article>
+        <div class="logo">
+          <img src="img/logo.png" />
+          <div class="title">
+            <p id="blog-title">Delicious</p>
+            <strong id="sub-title">The best food blog on the web</strong>
+          </div>
         </div>
-      </div>
+      </article>
       <nav>
-        <img class="contact" src="img/fb-icon.png" />
-        <img class="contact" src="img/twit-icon.png" />
-        <img class="contact" src="img/gp-icon.png" />
-        <img class="contact" src="img/insta-icon.png" />
-        <img class="contact" src="img/flic-icon.png" />
-        <img class="contact" src="img/pint-icon.png" />
-        <img class="contact" src="img/rss-icon.png" />
-        <img class="contact" src="img/mail-icon.png" />
+        <img src="img/fb-icon.png" />
+        <img src="img/twit-icon.png" />
+        <img src="img/gp-icon.png" />
+        <img src="img/insta-icon.png" />
+        <img src="img/flic-icon.png" />
+        <img src="img/pint-icon.png" />
+        <img src="img/rss-icon.png" />
+        <img src="img/mail-icon.png" />
       </nav>
     </header>
+    
     <main>
+      <article id="body">
+        <hr>
       <section>
         <div>
           <h1>Chocolate Pizza</h1>
           <div>
             <strong>Posted on 15 Dec 2013 / Deserts</strong>
-            <img src="img/print-icon.png" />
+            <article id="print">
+              <img src="img/print-icon.png" />
+              <p>Print</p>
+            </article>
           </div>
 
           <figure>
-            <img src="img/choco-pizza.png" />
+            <img class="hero" src="img/choco-pizza.png" />
           </figure>
         </div>
       </section>
@@ -83,87 +91,96 @@ than just the ones used in this file.
           <img src="img/list-bg.png" />
         </figure>
         <ul>
-          <li>
-            <label>
-              <input type="checkbox" />
-              <span>1 1/2 Cups Milk</span>
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" />
-              <span>1/2 Cup Mascarpone</span>
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" />
-              <span>1/2 Tsp Pink Salt</span>
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" />
-              <span>1lb Black Mission Figs</span>
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" />
-              <span>1/2 Cup Brown Sugar</span>
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" />
-              <span>2-4 Tsp Water</span>
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" />
-              <span>1 1/2 Cups Heavy Cream</span>
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" />
-              <span>1/3 Cup Granulated Sugar</span>
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" />
-              <span>2 Egg Yolks</span>
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" />
-              <span>1 Lemon, Juiced</span>
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" />
-              <span>2 Tbsp Butter</span>
-            </label>
-          </li>
-          <li>
-            <label>
-              <input type="checkbox" />
-              <span>1 Cup Honey Roasted Pecans, Lightly Chopped</span>
-            </label>
-          </li>
+          <div class="left-list">
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span>1 1/2 Cups Milk</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span>1/2 Cup Mascarpone</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span>1/2 Tsp Pink Salt</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span>1lb Black Mission Figs</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span>1/2 Cup Brown Sugar</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span>2-4 Tsp Water</span>
+              </label>
+            </li>
+          </div>
+          <div class="right-list">
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span>1 1/2 Cups Heavy Cream</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span>1/3 Cup Granulated Sugar</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span>2 Egg Yolks</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span>1 Lemon, Juiced</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span>2 Tbsp Butter</span>
+              </label>
+            </li>
+            <li>
+              <label>
+                <input type="checkbox" />
+                <span>1 Cup Honey Roasted Pecans, Lightly Chopped</span>
+              </label>
+            </li>
+          </div>
         </ul>
       </section>
-      <section>
+      <hr>
+    </article>
+
+     
+
+      <section class="bio">
         <figure>
           <img src="img/van-pic.png" />
         </figure>
         <div>
           <h2>Vanessa Stevenson</h2>
-          <p>
+          <p id="interests">
             Food enthusiast, photography fan. Add a pinch of raw foodism and
             thats pretty much who I am.
           </p>
@@ -171,6 +188,7 @@ than just the ones used in this file.
         <a href="#"><strong>Share Recipe</strong></a>
       </section>
     </main>
+
     <footer>
       <img src="img/small-logo.png" />
       <p>Delicious &copy; 2023 &#183; All rights reserved</p>
