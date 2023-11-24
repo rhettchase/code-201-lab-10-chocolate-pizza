@@ -87,10 +87,22 @@ nav {
 
 #sub-title {
   margin-left: 1.5rem;
+  color: rgb(95, 95, 95);
 }
+
+#sub-head {
+  color: rgb(95, 95, 95);
+}
+
+
 
 .hero {
   width: 100%;
+}
+
+img.hero {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .instructions {
@@ -128,11 +140,32 @@ li {
   transform: translate(-10%, -10%);
 }
 
+/* Initially, set text-decoration to none */
+.left-list input[type="checkbox"] + span {
+  text-decoration: none;
+}
+
+/* Apply line-through when checkbox is checked */
+.left-list input[type="checkbox"]:checked + span {
+  text-decoration: line-through;
+}
+
+
 .right-list {
   position: absolute;
   top: 10%;
   left: 50%;
   transform: translate(-10%, -10%);
+}
+
+/* Initially, set text-decoration to none */
+.right-list input[type="checkbox"] + span {
+  text-decoration: none;
+}
+
+/* Apply line-through when checkbox is checked */
+.right-list input[type="checkbox"]:checked + span {
+  text-decoration: line-through;
 }
 
 strong {
@@ -144,6 +177,7 @@ strong {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 
 .bio h2 {
@@ -161,6 +195,7 @@ footer {
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  margin: 1rem;
   letter-spacing: 0.02rem;
   line-height: 1.2rem;
 }
@@ -172,10 +207,10 @@ footer img {
 }
 
 a {
-  background-color: rgb(230, 96, 96);
+  background-color: rgb(230, 125, 96);
   border: none;
   color: white;
-  padding: 1rem 2rem;
+  padding: 0.5rem 2rem;
   font-size: 1.5rem;
   text-decoration: none;
 }
